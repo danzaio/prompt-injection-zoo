@@ -1,5 +1,7 @@
 # Demo script
 
+[Português do Brasil](pt-BR/demo-script.md)
+
 Use this sequence for a README GIF or short portfolio recording.
 
 ## Setup

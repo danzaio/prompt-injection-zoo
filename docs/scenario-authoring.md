@@ -1,5 +1,7 @@
 # Scenario authoring
 
+[Português do Brasil](pt-BR/scenario-authoring.md)
+
 A Prompt Injection Zoo scenario is a local, toy, versioned fixture. It teaches one agent-context failure mode without enabling real-world abuse.
 
 ## Required shape

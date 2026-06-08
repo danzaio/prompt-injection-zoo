@@ -1,5 +1,7 @@
 # Trace format
 
+[Português do Brasil](pt-BR/trace-format.md)
+
 Traces are JSONL files. Each line is one `TraceEvent` validated by `traceEventSchema`.
 
 ```ts

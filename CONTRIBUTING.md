@@ -1,5 +1,7 @@
 # Contributing
 
+[Português do Brasil](CONTRIBUTING.pt-BR.md)
+
 Prompt Injection Zoo accepts defensive, local-first scenario and tooling contributions only.
 
 ## Safe scenario rules

@@ -1,5 +1,7 @@
 # Landscape
 
+[Português do Brasil](pt-BR/landscape.md)
+
 Prompt Injection Zoo is intentionally not a clone of existing scanners, eval frameworks, benchmarks, or hosted games.
 
 | Project | Main purpose | Difference |

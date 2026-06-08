@@ -1,5 +1,7 @@
 # Safety and ethics
 
+[Português do Brasil](pt-BR/ethics.md)
+
 Prompt Injection Zoo is defensive education software. Every scenario is local, toy-only, and written to teach context-boundary handling without enabling real-world abuse.
 
 ## Boundaries

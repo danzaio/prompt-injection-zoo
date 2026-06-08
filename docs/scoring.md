@@ -1,5 +1,7 @@
 # Scoring
 
+[Português do Brasil](pt-BR/scoring.md)
+
 Prompt Injection Zoo scores observable runner signals, not model-judge opinions.
 
 ## Dimensions

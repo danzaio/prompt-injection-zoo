@@ -1,5 +1,7 @@
 # Security policy
 
+[Português do Brasil](SECURITY.pt-BR.md)
+
 Prompt Injection Zoo is a defensive education lab. It does not scan external targets, execute real tools, call paid model providers, or require credentials in the MVP.
 
 ## Supported surface

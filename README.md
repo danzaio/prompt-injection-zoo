@@ -1,5 +1,7 @@
 # Prompt Injection Zoo
 
+[Português do Brasil](README.pt-BR.md)
+
 A local lab for agent-context attacks and defenses.
 
 Learn how prompt injections cross trust boundaries in AI agents. Run safe toy scenarios, replay traces, compare defenses, and score whether context isolation held.
@@ -28,6 +30,12 @@ pnpm zoo:eval
 ```
 
 No API key, login, cloud sync, telemetry, database, or paid model provider is required.
+
+## Documentation
+
+- [Documentation index](docs/README.md)
+- [Brazilian Portuguese README](README.pt-BR.md)
+- [Brazilian Portuguese docs](docs/pt-BR/index.md)
 
 ## Run your first animal
 
