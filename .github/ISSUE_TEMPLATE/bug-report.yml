@@ -1,0 +1,41 @@
+name: Bug report
+description: Report a local runner, UI, docs, or safety-gate bug.
+title: "Bug: <short description>"
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include real secrets, real target URLs, or offensive payloads. Replace sensitive examples with fake canaries.
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed behavior
+      description: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should have happened?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Local reproduction steps
+      description: Include exact commands or route paths.
+      placeholder: |
+        pnpm install
+        pnpm test
+        pnpm zoo:run red-panda-footnote --mode defended
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Environment
+      description: Node, pnpm, OS, browser if relevant.
+    validations:
+      required: false

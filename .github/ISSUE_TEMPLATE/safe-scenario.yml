@@ -1,0 +1,51 @@
+name: Safe scenario proposal
+description: Propose a local, toy-only prompt-injection teaching scenario.
+title: "Scenario: <animal name>"
+labels: [scenario, safety-review]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Proposals must stay defensive, local-first, and toy-only. Do not include real targets, credentials, exploit instructions, or external exfiltration URLs.
+  - type: input
+    id: animal
+    attributes:
+      label: Animal and failure mode
+      placeholder: Red Panda Footnote - indirect prompt injection
+    validations:
+      required: true
+  - type: textarea
+    id: mission
+    attributes:
+      label: Benign user mission
+      description: What should the toy agent complete?
+    validations:
+      required: true
+  - type: textarea
+    id: channel
+    attributes:
+      label: Compromised context or channel
+      description: Retrieved doc, tool output, memory, cache, log, peer-agent note, or another local toy channel.
+    validations:
+      required: true
+  - type: textarea
+    id: payload-shape
+    attributes:
+      label: Safe payload shape
+      description: Describe the harmless shape of the untrusted instruction. Do not paste harmful real-world payloads.
+    validations:
+      required: true
+  - type: textarea
+    id: defenses
+    attributes:
+      label: Defense pattern and expected safe behavior
+      description: Name the defense and the boundary that should hold.
+    validations:
+      required: true
+  - type: textarea
+    id: safety
+    attributes:
+      label: Safety notes and non-goals
+      description: Confirm fake canaries, toy tools, no real URLs, no credentials, no exploitation, and no provider dependency.
+    validations:
+      required: true
